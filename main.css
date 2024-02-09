@@ -1,0 +1,45 @@
+body{
+    background-color: #eee;
+}
+
+.card{
+    padding: 0 20px;
+    background-color: #fff;
+    margin: 20px auto ;
+    width: 20%;
+}
+.card .elemnt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 75%;
+    padding: 5px;
+    border: 3px solid #000000a8;
+    border-radius: 5px;
+}
+.btn{
+    color: #fff;
+    background-color: #0bb010;
+    padding: 5px 10px;
+    border: 1px solid #06a00b;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    
+}
+ul li{
+   
+    overflow: hidden;
+    background-color: #eee;
+}
